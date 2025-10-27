@@ -10,7 +10,7 @@ namespace Tyuiu.PisarevMA.Sprint3.Task5.V30.Lib
             int k;
             for (i = startValue1; i <= stopValue1; i++)
             {
-                for (k = startValue2; k <= stopValue2; i++)
+                for (k = startValue2; k <= stopValue2; k++)
                 {
                     SumSumSeries = SumSumSeries + ((Math.Pow(x, 3) - k ) + x);
                 }

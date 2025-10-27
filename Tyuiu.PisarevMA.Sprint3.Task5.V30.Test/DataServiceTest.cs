@@ -7,10 +7,18 @@ namespace Tyuiu.PisarevMA.Sprint3.Task5.V30.Test
         [TestMethod]
         public void ValidGetSumSumSeries()
         {
-            int i = 1;
-            int k = 1;
+            DataService ds = new DataService();
 
-            Assert.AreEqual(i, k);
+            int x = 5;
+            int startValue1 = 1;
+            int startValue2 = 1;
+            int stopValue1 = 3;
+            int stopValue2 = 11;
+
+            double res = ds.GetSumSumSeries(x, startValue1, startValue2, stopValue1, stopValue2);
+            double wait = 0;
+
+            Assert.AreEqual(wait, res);
         }
 
     }
